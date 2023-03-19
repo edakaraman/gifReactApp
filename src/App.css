@@ -1,0 +1,66 @@
+body {
+  background-color: #ee5522;
+  background-image: url("https://img.freepik.com/premium-photo/emoticons-happy-smiley-faces-yellow-empty-space-background_524876-175.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size:26px; 
+  margin: 20px; 
+  background-color:rgba(250, 250, 250, 0.5); 
+  padding:15px; 
+  border-radius: 20px; 
+  color:black;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  align-items: space-between;
+  flex-direction: row;
+  height: 90vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+input {
+  margin-top: 20px;
+  padding: 5px;
+  border-radius: 50px;
+  letter-spacing: 0.7px;
+  width: 200px;
+  font-size: large;
+  outline: none;
+  text-align: center;
+}
+
+button {
+  margin: 20px 0;
+  padding: 5px;
+  text-decoration: none;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 50px;
+  width: 200px;
+  font-size: large;
+  letter-spacing: 0.7px;
+  background-color: orange;
+
+}
+
+
+img {
+  height: 400px;
+  margin-top: 0;
+  margin-left:20px;
+}
